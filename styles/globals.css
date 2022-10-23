@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Classic */
+    --color-white: #fff;
+    --color-black: #1a202e;
+
+    /* Primary */
+    --primary-background: #1e429f;
+    --primary-background-hover: #233876;
+
+    /* Success */
+    --success-background: #03543f;
+    --success-background-hover: #014737;
+
+    /* Information */
+    --info-background: #5521b5;
+    --info-background-hover: #4a1d96;
+
+    /* Warning */
+    --warning-background: #8a2c0d;
+    --warning-background-hover: #771d1d;
+
+    /* Danger */
+    --danger-background: #9b1c1c;
+    --danger-background-hover: #771d1d;
+  }
+
+  .theme_2 {
+    /* Classic */
+    --color-white: #fff;
+    --color-black: #1a202e;
+
+    /* Primary */
+    --primary-background: #1c64f2;
+    --primary-background-hover: #1a56db;
+
+    /* Success */
+    --success-background: #057a55;
+    --success-background-hover: #046c4e;
+
+    /* Information */
+    --info-background: #7e3af2;
+    --info-background-hover: #6c2bd9;
+
+    /* Warning */
+    --warning-background: #d03801;
+    --warning-background-hover: #b43403;
+
+    /* Danger */
+    --danger-background: #e02424;
+    --danger-background-hover: #c81e1e;
+  }
+
+  .theme_3 {
+    /* Classic */
+    --color-white: #fff;
+    --color-black: #1a202e;
+
+    /* Primary */
+    --primary-background: #c3ddfd;
+    --primary-background-hover: #a4cafe;
+
+    /* Success */
+    --success-background: #bcf0da;
+    --success-background-hover: #84e1bc;
+
+    /* Information */
+    --info-background: #dcd7fe;
+    --info-background-hover: #cabffd;
+
+    /* Warning */
+    --warning-background: #fcd9bd;
+    --warning-background-hover: #fdba8c;
+
+    /* Danger */
+    --danger-background: #fbd5d5;
+    --danger-background-hover: #f8b4b4;
+  }
+}
